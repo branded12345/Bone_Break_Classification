@@ -1,0 +1,68 @@
+2024-03-30 23:35:42,866 - INFO - Loading model...
+2024-03-30 23:35:43,193 - WARNING - From C:\Users\kesha\anaconda3\envs\pygpu\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-03-30 23:35:43,270 - WARNING - From C:\Users\kesha\anaconda3\envs\pygpu\lib\site-packages\keras\src\layers\normalization\batch_normalization.py:979: The name tf.nn.fused_batch_norm is deprecated. Please use tf.compat.v1.nn.fused_batch_norm instead.
+
+2024-03-30 23:35:44,628 - INFO - Model loaded successfully.
+2024-03-30 23:35:44,632 - INFO - File uploaded: None
+2024-03-30 23:36:05,537 - INFO - Loading model...
+2024-03-30 23:36:07,666 - INFO - Model loaded successfully.
+2024-03-30 23:36:07,666 - INFO - File uploaded: UploadedFile(file_id='904a3444-26ed-4c2d-9c0e-85165ec6b330', name='000002_png.rf.c3e00ebc2db78bc94e644c3f6605dad0.jpg', type='image/jpeg', size=29536, _file_urls=file_id: "904a3444-26ed-4c2d-9c0e-85165ec6b330"
+upload_url: "/_stcore/upload_file/b0ac411b-ef7e-4957-a91e-7ec7eff6ba8e/904a3444-26ed-4c2d-9c0e-85165ec6b330"
+delete_url: "/_stcore/upload_file/b0ac411b-ef7e-4957-a91e-7ec7eff6ba8e/904a3444-26ed-4c2d-9c0e-85165ec6b330"
+)
+2024-03-30 23:36:07,666 - INFO - Loading image...
+2024-03-30 23:36:07,711 - INFO - Image loaded successfully.
+2024-03-30 23:36:07,711 - INFO - Classifying image...
+2024-03-30 23:36:08,026 - ERROR - Error classifying image: in user code:
+
+    File "C:\Users\kesha\anaconda3\envs\pygpu\lib\site-packages\keras\src\engine\training.py", line 2440, in predict_function  *
+        return step_function(self, iterator)
+    File "C:\Users\kesha\anaconda3\envs\pygpu\lib\site-packages\keras\src\engine\training.py", line 2425, in step_function  **
+        outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "C:\Users\kesha\anaconda3\envs\pygpu\lib\site-packages\keras\src\engine\training.py", line 2413, in run_step  **
+        outputs = model.predict_step(data)
+    File "C:\Users\kesha\anaconda3\envs\pygpu\lib\site-packages\keras\src\engine\training.py", line 2381, in predict_step
+        return self(x, training=False)
+    File "C:\Users\kesha\anaconda3\envs\pygpu\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+        raise e.with_traceback(filtered_tb) from None
+    File "C:\Users\kesha\anaconda3\envs\pygpu\lib\site-packages\keras\src\engine\input_spec.py", line 298, in assert_input_compatibility
+        raise ValueError(
+
+    ValueError: Input 0 of layer "sequential_3" is incompatible with the layer: expected shape=(None, 256, 256, 3), found shape=(None, 224, 224, 3)
+
+2024-03-30 23:36:08,026 - ERROR - An error occurred: cannot unpack non-iterable NoneType object
+2024-03-30 23:39:25,761 - INFO - Loading model...
+2024-03-30 23:39:25,766 - WARNING - From C:\Users\kesha\anaconda3\envs\pygpu\lib\site-packages\keras\src\backend.py:277: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2024-03-30 23:39:26,392 - WARNING - From C:\Users\kesha\anaconda3\envs\pygpu\lib\site-packages\keras\src\layers\normalization\batch_normalization.py:979: The name tf.nn.fused_batch_norm is deprecated. Please use tf.compat.v1.nn.fused_batch_norm instead.
+
+2024-03-30 23:39:30,426 - INFO - Model loaded successfully.
+2024-03-30 23:39:30,429 - INFO - File uploaded: None
+2024-03-30 23:39:31,950 - INFO - Loading model...
+2024-03-30 23:39:35,318 - INFO - Model loaded successfully.
+2024-03-30 23:39:35,321 - INFO - File uploaded: UploadedFile(file_id='77d058fb-b82c-4ac4-8b4c-388cb99d3658', name='000002_png.rf.c3e00ebc2db78bc94e644c3f6605dad0.jpg', type='image/jpeg', size=29536, _file_urls=file_id: "77d058fb-b82c-4ac4-8b4c-388cb99d3658"
+upload_url: "/_stcore/upload_file/bd5808a1-2ac6-404f-aa45-8ccaa3869f14/77d058fb-b82c-4ac4-8b4c-388cb99d3658"
+delete_url: "/_stcore/upload_file/bd5808a1-2ac6-404f-aa45-8ccaa3869f14/77d058fb-b82c-4ac4-8b4c-388cb99d3658"
+)
+2024-03-30 23:39:35,321 - INFO - Loading image...
+2024-03-30 23:39:35,362 - INFO - Image loaded successfully.
+2024-03-30 23:39:35,362 - INFO - Classifying image...
+2024-03-30 23:39:35,678 - ERROR - Error classifying image: in user code:
+
+    File "C:\Users\kesha\anaconda3\envs\pygpu\lib\site-packages\keras\src\engine\training.py", line 2440, in predict_function  *
+        return step_function(self, iterator)
+    File "C:\Users\kesha\anaconda3\envs\pygpu\lib\site-packages\keras\src\engine\training.py", line 2425, in step_function  **
+        outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "C:\Users\kesha\anaconda3\envs\pygpu\lib\site-packages\keras\src\engine\training.py", line 2413, in run_step  **
+        outputs = model.predict_step(data)
+    File "C:\Users\kesha\anaconda3\envs\pygpu\lib\site-packages\keras\src\engine\training.py", line 2381, in predict_step
+        return self(x, training=False)
+    File "C:\Users\kesha\anaconda3\envs\pygpu\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+        raise e.with_traceback(filtered_tb) from None
+    File "C:\Users\kesha\anaconda3\envs\pygpu\lib\site-packages\keras\src\engine\input_spec.py", line 298, in assert_input_compatibility
+        raise ValueError(
+
+    ValueError: Input 0 of layer "sequential_3" is incompatible with the layer: expected shape=(None, 256, 256, 3), found shape=(None, 224, 224, 3)
+
+2024-03-30 23:39:35,678 - ERROR - An error occurred: cannot unpack non-iterable NoneType object
